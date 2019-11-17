@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../Styles/App.css';
 import JasminTrotter from './JasminTrotter';
+import Projects from './Projects';
 import Nav from './Nav';
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
       <div className='main-content'>
         <main>
           <JasminTrotter />
+          <Projects />
         </main>
       </div>
     </div>

@@ -7,7 +7,7 @@ function Projects() {
 
   return (
     <div className="Projects">
-
+      <ProjectItem />
     </div>
   );
 }
