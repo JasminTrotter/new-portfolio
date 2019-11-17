@@ -1,0 +1,17 @@
+.bottom {
+  display: flex;
+}
+
+.side-nav {
+  float: left;
+  position: fixed;
+  height: 100vh;
+  line-height: 100vh;
+  width: 150px;
+  padding: 20px;
+}
+
+.side-nav .nav-items-container {
+  line-height: 2.5;
+  display: inline-block;
+}
