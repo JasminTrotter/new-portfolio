@@ -1,0 +1,17 @@
+.headshot {
+  max-height: 400px;
+  /* float: left; */
+  margin-right: 20px;
+}
+
+.bio-container {
+  display: flex;
+}
+
+.mobile-main .bio-container {
+  display: block;
+}
+
+.mobile-main .headshot {
+  float: left;
+}

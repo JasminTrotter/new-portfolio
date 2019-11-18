@@ -1,15 +1,50 @@
 import React from 'react';
 import '../Styles/Nav.css';
 
-function Nav({ position }) {
+function Nav({
+  position,
+  updateShowIntro,
+  updateShowProjects,
+  updateShowContact
+}) {
+
   return (
-    <div className={`${position}-nav`}>
+    <div className={`${position}-nav Nav`}>
       <div className='nav-items-container'>
 
-        <div>Jasmin Trotter</div>
-        <div>Projects</div>
-        <div>About</div>
-        <div>Contact</div>
+        <div onClick={() => {
+          updateShowIntro(true)
+          updateShowContact(false)
+          updateShowProjects(false)
+        }}>
+          {(position === 'desktop') && 'Intro'}
+          {(position === 'mobile') && <i class="fa fa-home" aria-hidden="true"></i>}
+        </div>
+        <div onClick={() => {
+          updateShowIntro(false)
+          updateShowContact(false)
+          updateShowProjects(true)
+        }}>
+          {(position === 'desktop') && 'Projects'}
+          {(position === 'mobile') && <i class="fas fa-briefcase"></i>}
+        </div>
+        <div onClick={() => {
+          updateShowIntro(false)
+          updateShowContact(false)
+          updateShowProjects(false)
+        }}>
+          {(position === 'desktop') && 'About'}
+          {(position === 'mobile') && <i class="fas fa-address-card"></i>}
+        </div>
+        <div onClick={() => {
+          updateShowIntro(false)
+          updateShowContact(true)
+          updateShowProjects(false)
+        }}>
+          {(position === 'desktop') && 'Contact'}
+          {(position === 'mobile') && <i class="fas fa-envelope"></i>}
+
+        </div>
       </div>
     </div>
   );

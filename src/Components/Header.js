@@ -3,9 +3,9 @@ import '../Styles/Header.css';
 
 function Header() {
   return (
-    <div className="Header">
-
-    </div>
+    <header className="Header">
+      <h1>Jasmin M Trotter</h1>
+    </header>
   );
 }
 

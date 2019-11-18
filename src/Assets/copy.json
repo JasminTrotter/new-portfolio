@@ -6,7 +6,7 @@
       "projectLink": "https://student-portal-balletbody.herokuapp.com/",
       "clientRepo": "https://github.com/JasminTrotter/student-portal-client",
       "apiRepo": "https://github.com/JasminTrotter/student-portal-api",
-      "image": "./screenshots/studentportalscreen.PNG",
+      "image": "https://lh3.googleusercontent.com/CaIIGyaojNej9BZZOrQ-bJii8p2oXu5jXeyrfQVoP8tHMpg5ywMmHIeMTX8pfwh0KJatIJKFgMkrOAuOVQzVXzrUHjHG56U5YMOMJvwwmx6l79LmZGccWqxgrrSmzn7wmvU16j2-mw=w2400",
       "story": "As the owner of Ballet Body by Jasmin, a beginning ballet program for adults, I am both the developer and consumer of my software products. I created Student Portal out of a need to provide my ballet students with a convenient way of purchasing classes and reviewing a list of their purchase history.",
       "description": "Student Portal is a full stack, responsive web application designed to allow ballet students to create an account and access their own dashboard. This app utilizes MongoDB for a database, Express for the server side, React and Redux for the client side, JSON Web Tokens for authentication, and Stripe API for payment processing.",
       "techList": [
@@ -25,8 +25,8 @@
     {
       "header": "Ballet Body by Jasmin",
       "projectLink": "https://www.balletbodybyjasmin.com/",
-      "clientRepo": "https://github.com/JasminTrotter/ballet-body-by-jasmin",
-      "image": "https://lh3.googleusercontent.com/Dak06pCY-OynvAlcisJmwTDJb8v2_7CPMi2Cgi9JhPv105R5xhadtoyP612V2_OAdu-21jtLGA5vvUSdW4b-0CvAMPnVm4VjEQouol7fPs60Y38CCYOd4CR6BIMneSkiClJC3mvppA=w2400",
+      "repo": "https://github.com/JasminTrotter/ballet-body-by-jasmin",
+      "image": "https://lh3.googleusercontent.com/SYSYvuLP-YGdRT9oHdM6XVMMvwtwacgYcQ-dYTz6rtWs2cE3Bj98id6gxu-7sz-zDCmYZs29TGIMXnPeJ0x273E_uZ_jB4njvX1Ey_jg2_7CA6Tmv8W_gqxT62zbV5v21HZdLkDoOw=w2400",
       "description": "Ballet Body by Jasmin is a beginning ballet program for adults. This project is an informational website for the business.",
       "techList": [
         "HTML5",
@@ -39,7 +39,7 @@
       "header": "Join Class",
       "projectLink": "https://join-class.herokuapp.com/",
       "repo": "https://github.com/JasminTrotter/Join-Class-App",
-      "image": "./screenshots/join-class-screenshot.png",
+      "image": "https://lh3.googleusercontent.com/h36OIpFlyv8VyDWmMDtq2Dd9IBRCTSFZzC4kblrYLyyviVvkO19vn1Y26zC9wAylXIg8s8M-fNO-zYAmDhVm15CsZGx6wENzoIkCmln7_vtI6eUb_8amsT6k4cHRDHSh9yS_Ona41w=w2400",
       "description": "On Join Class, users (ballet students) can sign up for ballet class, view the schedule of classes, and cancel any current reservations.",
       "techList": [
         "HTML5",
@@ -56,9 +56,9 @@
     },
     {
       "header": "Quotumblr",
-      "projectLink": "https://www.balletbodybyjasmin.com/",
-      "clientRepo": "https://github.com/JasminTrotter/ballet-body-by-jasmin",
-      "image": "https://lh3.googleusercontent.com/-2ppLkZbJMOimMT0-Ky9H-VigsrugV4ggm0fRyPYh49qhgtDLhC_5qJlimizbcHPNXvk1BTaD0OXNwdHIY5s0iJCzi-74eGY9v3uFqohH4mvABr1oP1eOckGEV75jjBYqE7dkAGUvw=w2400",
+      "projectLink": "https://jasmintrotter.github.io/quotumblr/",
+      "repo": "https://github.com/JasminTrotter/quotumblr",
+      "image": "https://lh3.googleusercontent.com/bKq-zjELkKVkNXUuAlzUYuy6gQTntH9wwQmNnXxr6bl-jAxxx-BzYun8fUu7LEh0T7r_QyvTpQpkyFuVHhDjAdqJWbw_IzYrxzHmqDy3qd3CZOSiCsylMgZFNhmQm-q1y_5GyMeZ4A=w2400",
       "description": "I love a good quote, especially when I happen upon one serendipitously and it makes my day. A fun API hack, this responsive web application integrates with two third-party APIs: Tumblr and FavQ's. The user starts with entering their Tumblr username, then selects a text post from their Tumblr feed. Quotumblr chooses a random word from the selected post, then using FavQ's API, returns a quote containing that word.",
       "techList": [
         "HTML5",
@@ -128,6 +128,10 @@
     {
       "label": "GitHub",
       "src": "https://lh3.googleusercontent.com/TYfFgkNvEtAeTUaS1jA4nLyb5IKAeDAwNrcRXNN-ActGjUsh2k8bRAA8KDrmn2EEveUb9J5cwN8PGS3Lykz5WeBiK-bcRf8BS5dFOiDX8mk7wda2ANnEBmoBJMdtUittmCxaJ6lehA=s224-p-k"
+    },
+    {
+      "label": "Twitter",
+      "src": "https://lh3.googleusercontent.com/Pti2qyaYnqsTknzmK4aDJzGqSxdAS5nXZp6CKcQPkaSBNjtPGq4TlAGP9NweEZmvsw1dt5KnkZmdNwbwr6YOUEAHm1dCEqV-hbJXoejaRDfgCDNrE5XpitfV2_kGdYqfknIcladX2A=w2400"
     }
   ]
 }
