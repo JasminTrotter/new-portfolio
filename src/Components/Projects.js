@@ -11,7 +11,6 @@ function Projects() {
 
     copy.projects.forEach((projectObj) => {
       let item = document.createElement('div');
-      // let header = document.createElement('h3');
       let image = document.createElement('img');
       let description = document.createElement('p');
       let tech = document.createElement('div');
@@ -37,8 +36,6 @@ function Projects() {
           logoItem.className = 'logo';
           logoContainer.appendChild(logoItem);
         });
-
-        console.log(selectedLogos)
       }
 
       tech.className = 'tech-container'
