@@ -1,11 +1,11 @@
 import React from 'react';
 import copy from '../Assets/copy.json';
 import headshot from '../Assets/headshot.JPG';
-import '../Styles/JasminTrotter.css';
+import '../Styles/Intro.css';
 
-function JasminTrotter() {
+function Intro() {
   return (
-    <div className="JasminTrotter">
+    <div className="Intro">
       <section className='bio-container'>
         <div><img className='headshot' src={headshot} alt='Jasmin Trotter'></img></div>
         <div>{copy.bio}</div>
@@ -14,4 +14,4 @@ function JasminTrotter() {
   );
 }
 
-export default JasminTrotter;
+export default Intro;
