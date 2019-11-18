@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import '../Styles/App.css';
 import JasminTrotter from './JasminTrotter';
+import Projects from './Projects';
 import Nav from './Nav';
+import Contact from './Contact';
 
 function App() {
   const [navPosition, updateNavPosition] = useState('side');
@@ -25,6 +27,8 @@ function App() {
       <div className='main-content'>
         <main>
           <JasminTrotter />
+          <Projects />
+          <Contact />
         </main>
       </div>
     </div>
