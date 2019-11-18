@@ -1,6 +1,6 @@
 import React from 'react';
 import copy from '../Assets/copy.json';
-import headshot from '../Assets/JasminTrotter.JPG'
+import headshot from '../Assets/headshot.JPG';
 import '../Styles/JasminTrotter.css';
 
 function JasminTrotter() {
