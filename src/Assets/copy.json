@@ -6,7 +6,7 @@
       "projectLink": "https://student-portal-balletbody.herokuapp.com/",
       "clientRepo": "https://github.com/JasminTrotter/student-portal-client",
       "apiRepo": "https://github.com/JasminTrotter/student-portal-api",
-      "image": "https://lh3.googleusercontent.com/CaIIGyaojNej9BZZOrQ-bJii8p2oXu5jXeyrfQVoP8tHMpg5ywMmHIeMTX8pfwh0KJatIJKFgMkrOAuOVQzVXzrUHjHG56U5YMOMJvwwmx6l79LmZGccWqxgrrSmzn7wmvU16j2-mw=w2400",
+      "image": "./screenshots/macbook-studentportal.png",
       "story": "As the owner of Ballet Body by Jasmin, a beginning ballet program for adults, I am both the developer and consumer of my software products. I created Student Portal out of a need to provide my ballet students with a convenient way of purchasing classes and reviewing a list of their purchase history.",
       "description": "Student Portal is a full stack, responsive web application designed to allow ballet students to create an account and access their own dashboard. This app utilizes MongoDB for a database, Express for the server side, React and Redux for the client side, JSON Web Tokens for authentication, and Stripe API for payment processing.",
       "techList": [
@@ -26,7 +26,7 @@
       "header": "Ballet Body by Jasmin",
       "projectLink": "https://www.balletbodybyjasmin.com/",
       "repo": "https://github.com/JasminTrotter/ballet-body-by-jasmin",
-      "image": "https://lh3.googleusercontent.com/SYSYvuLP-YGdRT9oHdM6XVMMvwtwacgYcQ-dYTz6rtWs2cE3Bj98id6gxu-7sz-zDCmYZs29TGIMXnPeJ0x273E_uZ_jB4njvX1Ey_jg2_7CA6Tmv8W_gqxT62zbV5v21HZdLkDoOw=w2400",
+      "image": "./screenshots/macbook-balletbody.png",
       "description": "Ballet Body by Jasmin is a beginning ballet program for adults. This project is an informational website for the business.",
       "techList": [
         "HTML5",
@@ -39,7 +39,7 @@
       "header": "Join Class",
       "projectLink": "https://join-class.herokuapp.com/",
       "repo": "https://github.com/JasminTrotter/Join-Class-App",
-      "image": "https://lh3.googleusercontent.com/h36OIpFlyv8VyDWmMDtq2Dd9IBRCTSFZzC4kblrYLyyviVvkO19vn1Y26zC9wAylXIg8s8M-fNO-zYAmDhVm15CsZGx6wENzoIkCmln7_vtI6eUb_8amsT6k4cHRDHSh9yS_Ona41w=w2400",
+      "image": "./screenshots/macbook-joinclass.png",
       "description": "On Join Class, users (ballet students) can sign up for ballet class, view the schedule of classes, and cancel any current reservations.",
       "techList": [
         "HTML5",
@@ -58,7 +58,7 @@
       "header": "Quotumblr",
       "projectLink": "https://jasmintrotter.github.io/quotumblr/",
       "repo": "https://github.com/JasminTrotter/quotumblr",
-      "image": "https://lh3.googleusercontent.com/bKq-zjELkKVkNXUuAlzUYuy6gQTntH9wwQmNnXxr6bl-jAxxx-BzYun8fUu7LEh0T7r_QyvTpQpkyFuVHhDjAdqJWbw_IzYrxzHmqDy3qd3CZOSiCsylMgZFNhmQm-q1y_5GyMeZ4A=w2400",
+      "image": "./screenshots/macbook-quotumblr.png",
       "description": "I love a good quote, especially when I happen upon one serendipitously and it makes my day. A fun API hack, this responsive web application integrates with two third-party APIs: Tumblr and FavQ's. The user starts with entering their Tumblr username, then selects a text post from their Tumblr feed. Quotumblr chooses a random word from the selected post, then using FavQ's API, returns a quote containing that word.",
       "techList": [
         "HTML5",
@@ -71,35 +71,35 @@
   "logos": [
     {
       "label": "HTML5",
-      "src": "https://lh3.googleusercontent.com/qW3nkupUrl2i3sPGeUUHAbMRVSrRkTaLHF5_XeKdiQAHXvqyp-U8Vv4GG355VY-3tikZYZKBgsKSHWXqvvpVYjToqIapouysX85I51wAzi2hruXvDS0b5qzBV1VRyQt1eVHD3S7kdA=w2400"
+      "src": "./logos/htmllogo.png"
     },
     {
       "label": "CSS3",
-      "src": "https://lh3.googleusercontent.com/bHtV0zxESBAikyRMpmfN_juqWupF2OhqmBv7CdlhXbb7RKDZcdKEgYRBZIO88_3bHlHhA-NuPLMhjg4Lwa9UD9DFOJJpsY0lk-2_UJmI6HbajdHfP7V8A1hgFRLv0CJGIjdjQjsSjw=s225-p-k"
+      "src": "./logos/csslogo.png"
     },
     {
       "label": "JavaScript",
-      "src": "https://lh3.googleusercontent.com/3KBz09qp4W2fdpimDlXo4n_CxqtFnL2l0AC05xIGQtCikrF8wcf6SOlF_u2NGCJBM7UYBR5V8TDlpkxCpx8Zpa9aMgjVMMJw90UHwTzygzWCxrWsOj28qWWcsZQhkGt-ble7k2vXBA=w2400"
+      "src": "./logos/javascriptlogo.png"
     },
     {
       "label": "ReactJS",
-      "src": "https://lh3.googleusercontent.com/UfVLa1X9HZPZ7folktTsRtEdgSkCCTw7fRCYvkViuT2rWaHFnUQ92dNiUOkkc5bMc7PRxYkRqzYLXN2Rs5YWr8y9La1cdlL6StbftVIyfM7dedaIZ-UFJ2nr62pwYaVkWGHzOoQz8A=w2400"
+      "src": "./logos/reactlogo.png"
     },
     {
       "label": "Redux",
-      "src": "https://lh3.googleusercontent.com/mYSvkvJxOZxtqk9IcEsXwxIDvlHBvioI3cF4ORAsQqLr7zX35CtQcKUZ10tGzMc0I_FkNCuEx4KyM2TUh5p7GO_021sT5gjdjy6BbAKpj2yRl28B94n_WeyzSpIRYB_aS0QgAnXduQ=w2400"
+      "src": "./logos/reduxlogo.png"
     },
     {
       "label": "Node.js",
-      "src": "https://lh3.googleusercontent.com/e7OX9CaBSB8baXLoiOqKz1I7L2lsIWkXIOWtnmgplro4J52zbYBTJdDWXNRg0C7krwg3BkcGHXsdK2vmKdpvUtJzAO6kQV3IqA8Fcr4-ef-7L8g3XkiLVF7dbxZI8bGT5Ejz3pbOJA=w2400"
+      "src": "./logos/nodelogo.png"
     },
     {
       "label": "Express",
-      "src": "https://lh3.googleusercontent.com/SWd9NbrSOullYu_QnBiYHjoS3SaQOVNMQZraSX2U85wNPPwtFaBWZmFl8OG-M5oa3rk3ef1Ws3_nIkhvBv8_eIv8CDfmZ3sc22H3iayPAJihn_egmNDIkAS1-CvJaG1fy_PfmG4inw=w2400"
+      "src": "./logos/expresslogo.jpg"
     },
     {
       "label": "mLab",
-      "src": "https://lh3.googleusercontent.com/IllspMn2nMHnmCoVUYu-t84ClZHEb67Kllo-jRxEL_Xm-5Mmar3pvOB3tVCn93iIR3xd8A7xQSbZfyzwloakp9s6TthmLEWEkGlNbNQ37tYflICZhEmJR0vQDzchZoKzWCDzeIK3Zw=w2400"
+      "src": "./logos/mlablogo.png"
     },
     {
       "label": "Enzyme",
@@ -107,15 +107,15 @@
     },
     {
       "label": "Travis CI",
-      "src": "https://lh3.googleusercontent.com/cFmMEt7MmnnSwSyy9lCsdTPTKlgWk5NiwsVztlx6flnAs55HTkitoUP5SwCfSLm3T6cZsQ7IZ8vUntpTHDGlwJ9U_rDg_jn_pPuJlRDqKw56YXzQTNgMBZ5FuvwzpQgD664DuJczGQ=w2400"
+      "src": "./logos/traviscilogo.png"
     },
     {
       "label": "Heroku",
-      "src": "https://lh3.googleusercontent.com/BhqHYDJUE-R1Mld1afg8Ftyx1nbW1y28YsHbQ0IyLmHwh9rDDih5GSgDmZJwlVKSgcGS_FV7TCrLWOXw-GuVMeNDoIk0Jfc_2P0Tn0CMXcSrNq43YTosR2xdCgOsfHsm8wvMfqWcaA=w2400"
+      "src": "./logos/herokulogo.jpg"
     },
     {
       "label": "jQuery",
-      "src": "https://lh3.googleusercontent.com/pz1VUFLQqpES_0FG4IYJcb12f2hAONXL7PHLqGeO9oyA5HoaRT7gZtiqTOb8NsiU6p9w3rcWa3QjGb3nz8S07pS8KbsWBXhTzMK8gmsIraow705S65SnQucTc18MMrQGbx_JEaZWCg=w2400"
+      "src": "./logos/jquerylogo.gif"
     },
     {
       "label": "gmail",
@@ -123,15 +123,15 @@
     },
     {
       "label": "LinkedIn",
-      "src": "https://lh3.googleusercontent.com/fxdVXzK0Kh_Tb8DhSqxC6Qtgq8Nxri5KpZfBXi1q7XjJJJ8now-bcMBRMBun2iGWL972l2CSuMkkSoWXyPvYplPCFgbvvm5ETDL4XqG0-jnn-mcxocXSO_bnh0HfKtDUwapNuqiPUA=s225-p-k"
+      "src": "./logos/gmaillogo.png"
     },
     {
       "label": "GitHub",
-      "src": "https://lh3.googleusercontent.com/TYfFgkNvEtAeTUaS1jA4nLyb5IKAeDAwNrcRXNN-ActGjUsh2k8bRAA8KDrmn2EEveUb9J5cwN8PGS3Lykz5WeBiK-bcRf8BS5dFOiDX8mk7wda2ANnEBmoBJMdtUittmCxaJ6lehA=s224-p-k"
+      "src": "./logos/githublogo.png"
     },
     {
       "label": "Twitter",
-      "src": "https://lh3.googleusercontent.com/Pti2qyaYnqsTknzmK4aDJzGqSxdAS5nXZp6CKcQPkaSBNjtPGq4TlAGP9NweEZmvsw1dt5KnkZmdNwbwr6YOUEAHm1dCEqV-hbJXoejaRDfgCDNrE5XpitfV2_kGdYqfknIcladX2A=w2400"
+      "src": "./logos/twitterlogo.png"
     }
   ]
 }
