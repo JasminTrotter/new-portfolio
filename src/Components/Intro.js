@@ -8,7 +8,7 @@ function Intro() {
     <div className="Intro">
       <section className='bio-container'>
         <div><img className='headshot' src={headshot} alt='Jasmin Trotter'></img></div>
-        <div>{copy.bio}</div>
+        <div className='bio'>{copy.bio}</div>
       </section>
     </div>
   );

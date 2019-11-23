@@ -5,71 +5,72 @@ import '../Styles/Projects.css';
 function Projects() {
 
   useEffect(() => {
-    console.log(copy.projects);
-
     let html = document.createElement('div');
 
     copy.projects.forEach((projectObj) => {
       let item = document.createElement('div');
       let image = document.createElement('img');
       let description = document.createElement('p');
-      let tech = document.createElement('div');
       let techList = document.createElement('div');
-      let logoContainer = document.createElement('div');
+      let techHeader = document.createElement('h3');
 
       if (projectObj.techList && projectObj.techList.length) {
-        let logoItem;
+        let logoParent;
         const selectedLogos = [];
 
-        projectObj.techList.forEach(tech => {
+        projectObj.techList.forEach(techItem => {
           copy.logos.forEach(obj => {
-            if (obj.label === tech) {
+            if (obj.label === techItem) {
               selectedLogos.push(obj)
             }
           });
         });
 
         selectedLogos.forEach(selectedLogo => {
-          logoItem = document.createElement('img');
+          logoParent = document.createElement('div');
 
-          logoItem.src = selectedLogo.src;
-          logoItem.className = 'logo';
-          logoContainer.appendChild(logoItem);
+          let img = document.createElement('img');
+          let label = document.createElement('p');
+
+          img.src = selectedLogo.src;
+          img.className = 'logo';
+          img.alt = selectedLogo.label + ' logo';
+          label.innerHTML = selectedLogo.label;
+          logoParent.classList = 'logo-parent';
+
+          logoParent.appendChild(img);
+          logoParent.appendChild(label);
+          techList.appendChild(logoParent);
         });
       }
 
-      tech.className = 'tech-container'
+      techList.className = 'logo-container';
       image.className = 'project-img';
       item.className = 'project-item';
       description.className = 'project-description';
 
-      // header.innerHTML = projectObj.header;
       image.src = projectObj.image;
       description.innerHTML = projectObj.description;
+      techHeader.innerHTML = 'Technologies:';
 
-      // item.appendChild(header);
       item.appendChild(image);
       item.appendChild(description);
-      techList.appendChild(logoContainer);
+      item.appendChild(techHeader);
+      item.appendChild(techList);
       item.appendChild(techList);
       html.appendChild(item);
-
-
     });
 
-    // setProjectHtml(html);
+    let projectsListHtml = document.getElementById('ProjectsList');
 
-    let projectsItemHtml = document.getElementById('ProjectsItem');
-    projectsItemHtml.innerHTML = html.innerHTML;
+    projectsListHtml.innerHTML = html.innerHTML;
 
   }, []);
 
   return (
-
     <div className='wrapper'>
-      <div className="Projects" id="ProjectsItem"></div>
+      <div className="Projects" id="ProjectsList"></div>
     </div>
-
   );
 }
 

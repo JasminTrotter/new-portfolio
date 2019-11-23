@@ -8,18 +8,18 @@ import Header from './Header';
 
 function App() {
   const [navPosition, updateNavPosition] = useState('side');
-  const [showIntro, updateShowIntro] = useState(true);
-  const [showProjects, updateShowProjects] = useState(false);
+  const [showIntro, updateShowIntro] = useState(false);
+  const [showProjects, updateShowProjects] = useState(true);
   const [showContact, updateShowContact] = useState(false);
 
   useEffect(() => {
     updateNav();
     window.addEventListener('resize', updateNav);
   }, [
-    showIntro,
-    showProjects,
-    showContact
-  ]);
+      showIntro,
+      showProjects,
+      showContact
+    ]);
 
   function updateNav() {
     if (window.innerWidth < 768) {

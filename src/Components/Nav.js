@@ -18,7 +18,7 @@ function Nav({
           updateShowProjects(false)
         }}>
           {(position === 'desktop') && 'Intro'}
-          {(position === 'mobile') && <i class="fa fa-home" aria-hidden="true"></i>}
+          {(position === 'mobile') && <i className="fa fa-home" aria-hidden="true"></i>}
         </div>
         <div onClick={() => {
           updateShowIntro(false)
@@ -26,7 +26,7 @@ function Nav({
           updateShowProjects(true)
         }}>
           {(position === 'desktop') && 'Projects'}
-          {(position === 'mobile') && <i class="fas fa-briefcase"></i>}
+          {(position === 'mobile') && <i className="fas fa-briefcase"></i>}
         </div>
         <div onClick={() => {
           updateShowIntro(false)
@@ -34,7 +34,7 @@ function Nav({
           updateShowProjects(false)
         }}>
           {(position === 'desktop') && 'About'}
-          {(position === 'mobile') && <i class="fas fa-address-card"></i>}
+          {(position === 'mobile') && <i className="fas fa-address-card"></i>}
         </div>
         <div onClick={() => {
           updateShowIntro(false)
@@ -42,7 +42,7 @@ function Nav({
           updateShowProjects(false)
         }}>
           {(position === 'desktop') && 'Contact'}
-          {(position === 'mobile') && <i class="fas fa-envelope"></i>}
+          {(position === 'mobile') && <i className="fas fa-envelope"></i>}
 
         </div>
       </div>

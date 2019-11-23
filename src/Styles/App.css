@@ -1,11 +1,6 @@
-.App {
-  /* padding: 20px; */
-}
-
 main {
   position: relative;
   width: calc(100vw - 190px);
-  line-height: 2.5;
   display: inline-block;
   left: 150px;
   top: 80px;
