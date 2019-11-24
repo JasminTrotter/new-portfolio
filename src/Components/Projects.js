@@ -11,10 +11,10 @@ function Projects() {
       {copy.projects.map((project, i) => (
         <div className='project-item' key={i}>
           <img className='project-img' src={project.image} />
-          <ProjectDescription description={project.description} />
+          <ProjectDescription description={project.description} link={project.projectLink} />
           <h3>Technologies:</h3>
           <div className='logo-container' >
-            {<TechList list={project.techList} link={project.projectLink} />}
+            {<TechList list={project.techList} />}
           </div>
           {project.techDescription && <div className='tech-description'>{project.techDescription}</div>}
         </div>

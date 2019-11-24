@@ -2,6 +2,8 @@ import React from 'react';
 
 function ProjectDescription({ description, link }) {
 
+  console.log(link)
+
   return (
     <>
       {description.indexOf('<>') !== -1 && <p className='project-description'>

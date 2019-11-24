@@ -8,8 +8,8 @@ import Projects from './Projects';
 
 function App() {
   const [navPosition, updateNavPosition] = useState('side');
-  const [showIntro, updateShowIntro] = useState(false);
-  const [showProjects, updateShowProjects] = useState(true);
+  const [showIntro, updateShowIntro] = useState(true);
+  const [showProjects, updateShowProjects] = useState(false);
   const [showContact, updateShowContact] = useState(false);
 
   useEffect(() => {
