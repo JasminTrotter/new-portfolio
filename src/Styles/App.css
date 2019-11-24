@@ -1,17 +1,20 @@
 .App {
-  /* padding: 20px; */
+  height: 0px;
 }
 
 main {
-  position: relative;
   width: calc(100vw - 190px);
-  line-height: 2.5;
-  display: inline-block;
-  left: 150px;
-  top: 80px;
-  max-width: 730px;
+  position: relative;
   z-index: -1;
   padding: 20px;
+  left: 150px;
+  top: 80px;
+}
+
+.wrapper {
+  margin: auto;
+  max-width: 730px;
+  position: relative;
 }
 
 .mobile-main {

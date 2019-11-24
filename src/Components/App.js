@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import '../Styles/App.css';
 import Intro from './Intro';
-import Projects from './Projects';
 import Nav from './Nav';
 import Contact from './Contact';
 import Header from './Header';
+import Projects from './Projects';
 
 function App() {
   const [navPosition, updateNavPosition] = useState('side');
@@ -16,10 +16,10 @@ function App() {
     updateNav();
     window.addEventListener('resize', updateNav);
   }, [
-    showIntro,
-    showProjects,
-    showContact
-  ]);
+      showIntro,
+      showProjects,
+      showContact
+    ]);
 
   function updateNav() {
     if (window.innerWidth < 768) {
@@ -39,9 +39,11 @@ function App() {
         updateShowContact={updateShowContact}
       />
       <main className={`${navPosition}-main`}>
-        {showIntro && <Intro />}
-        {showProjects && <Projects />}
-        {showContact && <Contact />}
+        <div className='wrapper'>
+          {showIntro && <Intro />}
+          {showProjects && <Projects />}
+          {showContact && <Contact />}
+        </div>
       </main>
     </div>
   );

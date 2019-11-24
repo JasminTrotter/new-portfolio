@@ -1,32 +1,3 @@
-
-
-li {
-  list-style: none;
-  cursor: pointer;
-}
-
-nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 10;
-}
-
-
-
-
-h3 {
-  font-size: 20px;
-}
-
-
-#bio {
-  max-width: 600px;
-}
-
-
-
 .project-container section {
   min-height: 200px;
   padding: 6% 0;
@@ -34,55 +5,47 @@ h3 {
   margin: auto;
 }
 
-#bio, .project-description {
+.project-description, .bio {
   margin: 20px;
+  line-height: 2;
   font-size: 16px;
 }
 
-#bio {
+.tech-description {
+  line-height: 2;
+  font-size: 15px;
+  width: 80%;
   margin: auto;
-
 }
 
-
-.bio-p {
-  font-size: 16px;
+.bold {
+  font-weight: 600;
 }
-
 .project-img {
   max-height: 300px;
-  /* box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.50); */
   cursor: pointer;
-}
-
-
-.projects-header {
-  background-color: #D1E0CA;
-  padding: 20px;
-  font-size: 40px;
-      width: 100vw;
-    left: 0;
-    position: absolute;
-}
-
-.project-container {
-  padding-top: 150px;
-  align-items: center;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 
 .logo {
   height: 30px;
 }
 
-address {
-  font-style: normal;
+.logo-parent:hover {
+  transform: scale(1.3);
 }
 
-.logo-container {
-  margin-top: 30px;
+.bold:hover {
+  color: blue;
+}
+
+.logo-parent {
+  padding: 10px;
+  text-align: center;
+  cursor: default;
+}
+
+address {
+  font-style: normal;
 }
 
 .logo-container, .contact-links {
@@ -93,34 +56,22 @@ address {
 
 }
 
-.contact-links {
-  padding-top: 40px;
+.project-item {
+  padding-bottom: 40px;
+  margin-top: 40px;
+  border-bottom: black 2px solid;
 }
 
-.more-button {
-  padding: 10px;
-  color: #47342B;
-  font-size: 15px;
-  background-color: #D1E0CA;
-  margin-bottom: 40px;
-  border-radius: 3px;
-  border: #47342B 3px solid;
-
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
-.tech {
-  text-align: left;
+.contact-link {
+  margin: 20px;
 }
 
-.tech-list {
-  text-align: center;
-}
-
-.logo-div {
-  margin: 15px;
-}
-
-footer {
+.logo-label {
   font-size: 10px;
 }
 
@@ -130,42 +81,3 @@ button {
   border: none;
   cursor: pointer;
 }
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-.less-button {
-  font-size: 20px;
-}
-
-.live-repo button {
-    font-size: 15px;
-    border-radius: 5px;
-    background-color: #25599D;
-    color: white;
-    padding: 7px;
-}
-.live-repo {
-  margin-bottom: 40px;
-}
-
-.fa-angle-double-right {
-  color: #25599D;
-}
-
-.contact-link {
-  margin: 20px;
-}
-
-
-p {
-  font-size: 10px;
-}
-
-.contact-deet {
-  font-size: 12px;
-  display: block;
-}
-
