@@ -7,8 +7,8 @@
       "clientRepo": "https://github.com/JasminTrotter/student-portal-client",
       "apiRepo": "https://github.com/JasminTrotter/student-portal-api",
       "image": "./screenshots/macbook-studentportal.png",
-      "story": "As the owner of Ballet Body by Jasmin, a beginning ballet program for adults, I am both the developer and consumer of my software products. I created Student Portal out of a need to provide my ballet students with a convenient way of purchasing classes and reviewing a list of their purchase history.",
-      "description": "Student Portal is a full stack, responsive web application designed to allow ballet students to create an account and access their own dashboard. This app utilizes MongoDB for a database, Express for the server side, React and Redux for the client side, JSON Web Tokens for authentication, and Stripe API for payment processing.",
+      "description": "As the owner of Ballet Body by Jasmin, a beginning ballet program for adults, I am both the developer and consumer of my software products. I created <>Student Portal</> out of a need to provide my ballet students with a convenient way of purchasing classes and reviewing a list of their purchase history.",
+      "techDescription": "Student Portal is a full stack, responsive web application designed to allow ballet students to create an account and access their own dashboard. This app utilizes MongoDB for a database, Express for the server side, React and Redux for the client side, JSON Web Tokens for authentication, and Stripe API for payment processing.",
       "techList": [
         "HTML5",
         "CSS3",
