@@ -11,15 +11,16 @@ function App() {
   const [showIntro, updateShowIntro] = useState(true);
   const [showProjects, updateShowProjects] = useState(false);
   const [showContact, updateShowContact] = useState(false);
+  const [showAbout, updateShowAbout] = useState(false);
 
   useEffect(() => {
     updateNav();
     window.addEventListener('resize', updateNav);
   }, [
-      showIntro,
-      showProjects,
-      showContact
-    ]);
+    showIntro,
+    showProjects,
+    showContact
+  ]);
 
   function updateNav() {
     if (window.innerWidth < 768) {
@@ -32,19 +33,26 @@ function App() {
   return (
     <div className='App'>
       <Header />
-      <Nav
-        position={navPosition}
-        updateShowIntro={updateShowIntro}
-        updateShowProjects={updateShowProjects}
-        updateShowContact={updateShowContact}
-      />
-      <main className={`${navPosition}-main`}>
-        <div className='wrapper'>
-          {showIntro && <Intro />}
-          {showProjects && <Projects />}
-          {showContact && <Contact />}
-        </div>
-      </main>
+      <div className='content-wrapper'>
+        <Nav
+          position={navPosition}
+          updateShowIntro={updateShowIntro}
+          updateShowProjects={updateShowProjects}
+          updateShowContact={updateShowContact}
+          updateShowAbout={updateShowAbout}
+          showIntro={showIntro}
+          showProjects={showProjects}
+          showContact={showContact}
+          showAbout={showAbout}
+        />
+        <main className={`${navPosition}-main`}>
+          <div className='wrapper'>
+            {showIntro && <Intro />}
+            {showProjects && <Projects />}
+            {showContact && <Contact />}
+          </div>
+        </main>
+      </div>
     </div>
   );
 }

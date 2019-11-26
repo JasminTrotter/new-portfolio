@@ -11,6 +11,20 @@
   font-size: 16px;
 }
 
+.technologies-container {
+  background-color: #FFFDF9;
+  padding: 20px;
+  border-radius: 15px;
+  border: #B7DBF5 solid 2px;
+}
+
+h3 {
+  margin: 0px 0px 15px 0px;
+  border-bottom: 2px solid #B7DBF5;
+  width: 120px;
+  padding-bottom: 4px;
+}
+
 .tech-description {
   line-height: 2;
   font-size: 15px;
@@ -34,8 +48,12 @@
   transform: scale(1.3);
 }
 
+.project-img:hover {
+  transform: scale(1.05);
+}
+
 .bold:hover {
-  color: blue;
+  color: #9BB1DE;
 }
 
 .logo-parent {
@@ -73,6 +91,7 @@ a {
 
 .logo-label {
   font-size: 10px;
+  color: #403F3E;
 }
 
 button {
