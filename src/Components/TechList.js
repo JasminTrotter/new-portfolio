@@ -19,15 +19,15 @@ function TechList({ list }) {
     }
 
     setLogoObjects(selectedLogos);
-  }, []);
+  }, [list]);
 
   return (
     <>
       {logoObjects && logoObjects.map((logoObject, i) => (
-        <a className="logo-parent" key={i}>
+        <button className="logo-parent" disabled key={i}>
           <img src={logoObject.src} className="logo" alt={logoObject.label} />
           <p className='logo-label'>{logoObject.label}</p>
-        </a>
+        </button>
       ))}
     </>
   );

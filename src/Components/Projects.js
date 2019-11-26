@@ -10,13 +10,15 @@ function Projects() {
     <>
       {copy.projects.map((project, i) => (
         <div className='project-item' key={i}>
-          <img className='project-img' src={project.image} />
+          <img className='project-img' src={project.image} alt={project.header} onClick={() => window.open(project.projectLink)} />
           <ProjectDescription description={project.description} link={project.projectLink} />
-          <h3>Technologies:</h3>
-          <div className='logo-container' >
-            {<TechList list={project.techList} />}
+          <div className='technologies-container'>
+            <h3>Technologies</h3>
+            <div className='logo-container' >
+              {<TechList list={project.techList} />}
+            </div>
+            {project.techDescription && <div className='tech-description'>{project.techDescription}</div>}
           </div>
-          {project.techDescription && <div className='tech-description'>{project.techDescription}</div>}
         </div>
       ))}
     </>

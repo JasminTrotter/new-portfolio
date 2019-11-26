@@ -1,20 +1,24 @@
 .Nav {
   float: left;
   position: fixed;
+  background-color: #9BD4DE;
 }
 
 .desktop-nav {
   height: 100vh;
   line-height: 100vh;
-  width: 150px;
-  padding: 40px;
+  width: 100px;
 }
 
 .mobile-nav {
-  background-color: white;
-  width: 25px;
-  top: 70px;
-  padding: 20px;
+  width: 60px;
+  height: 100vh;
+}
+
+.mobile-nav .nav-items-container {
+  top: 150px;
+  position: relative;
+  width: 60px;
 }
 
 .Nav .nav-items-container {
@@ -24,4 +28,17 @@
 
 .nav-items-container div {
   cursor: pointer;
+  padding-left: 20px;
+}
+
+.mobile-nav .nav-items-container div {
+  width: 60px;
+}
+
+.desktop-nav .nav-items-container div {
+  width: 100px;
+}
+
+.nav-item-selected {
+  background-color: #FFF7EE;
 }
