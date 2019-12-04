@@ -14,7 +14,7 @@ function Nav({
 }) {
 
   return (
-    <div className={`${position}-nav Nav`}>
+    <div className={`${position}-nav Nav box-shadow`}>
       <div className='nav-items-container'>
         <div className={showIntro ? 'nav-item-selected' : undefined} onClick={() => {
           updateShowIntro(true)

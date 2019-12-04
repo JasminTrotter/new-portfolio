@@ -17,10 +17,10 @@ function App() {
     updateNav();
     window.addEventListener('resize', updateNav);
   }, [
-    showIntro,
-    showProjects,
-    showContact
-  ]);
+      showIntro,
+      showProjects,
+      showContact
+    ]);
 
   function updateNav() {
     if (window.innerWidth < 768) {
