@@ -4,7 +4,7 @@ import '../Styles/Contact.css';
 function Contact() {
 
   return (
-    <div className="Contact">
+    <div className="Contact box-shadow">
       <section className="contact">
         <h2>Contact</h2>
         <address>

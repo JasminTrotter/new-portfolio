@@ -3,7 +3,7 @@ import '../Styles/Header.css';
 
 function Header() {
   return (
-    <header className="Header">
+    <header className="Header box-shadow">
       <h1>Jasmin M. Trotter</h1>
     </header>
   );
