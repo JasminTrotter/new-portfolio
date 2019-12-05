@@ -1,14 +1,14 @@
 .Nav {
   float: left;
   position: fixed;
-  background-color: #9BD4DE;
+  background-color: #969DB6;
   font-weight: bold;
 }
 
 .desktop-nav {
   height: 100vh;
   line-height: 100vh;
-  width: 100px;
+  width: 200px;
 }
 
 .mobile-nav {
@@ -37,7 +37,7 @@
 }
 
 .desktop-nav .nav-items-container div {
-  width: 100px;
+  width: 200px;
 }
 
 .nav-item-selected {

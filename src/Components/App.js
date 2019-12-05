@@ -17,10 +17,10 @@ function App() {
     updateNav();
     window.addEventListener('resize', updateNav);
   }, [
-      showIntro,
-      showProjects,
-      showContact
-    ]);
+    showIntro,
+    showProjects,
+    showContact
+  ]);
 
   function updateNav() {
     if (window.innerWidth < 768) {
@@ -52,6 +52,7 @@ function App() {
             {showContact && <Contact />}
           </div>
         </main>
+        <div style={{ height: '50px' }}></div>
       </div>
     </div>
   );
