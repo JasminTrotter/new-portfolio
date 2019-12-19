@@ -7,10 +7,10 @@ h1 {
 
 header {
   box-sizing: border-box;
-  position: fixed;
-  z-index: 99;
+  z-index: 98;
   width: 100vw;
   height: 90px;
-  padding: 5px 60px;
-  background-color: transparent;
+  padding: 5px 240px;
+  background-color: #FFF7EE;
+  position: fixed;
 }

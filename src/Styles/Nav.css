@@ -3,6 +3,7 @@
   position: fixed;
   background-color: #969DB6;
   font-weight: bold;
+  z-index: 99;
 }
 
 .desktop-nav {

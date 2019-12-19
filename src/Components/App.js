@@ -32,19 +32,21 @@ function App() {
 
   return (
     <div className='App'>
-      <Header />
       <div className='content-wrapper'>
-        <Nav
-          position={navPosition}
-          updateShowIntro={updateShowIntro}
-          updateShowProjects={updateShowProjects}
-          updateShowContact={updateShowContact}
-          updateShowAbout={updateShowAbout}
-          showIntro={showIntro}
-          showProjects={showProjects}
-          showContact={showContact}
-          showAbout={showAbout}
-        />
+        <div style={{ display: 'flex' }}>
+          <Header />
+          <Nav
+            position={navPosition}
+            updateShowIntro={updateShowIntro}
+            updateShowProjects={updateShowProjects}
+            updateShowContact={updateShowContact}
+            updateShowAbout={updateShowAbout}
+            showIntro={showIntro}
+            showProjects={showProjects}
+            showContact={showContact}
+            showAbout={showAbout}
+          />
+        </div>
         <main className={`${navPosition}-main`}>
           <div className='wrapper'>
             {showIntro && <Intro />}
