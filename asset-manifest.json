@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/new-portfolio/static/css/main.cdf9094a.chunk.css",
+    "main.js": "/new-portfolio/static/js/main.4743207f.chunk.js",
+    "main.js.map": "/new-portfolio/static/js/main.4743207f.chunk.js.map",
+    "runtime-main.js": "/new-portfolio/static/js/runtime-main.3450413c.js",
+    "runtime-main.js.map": "/new-portfolio/static/js/runtime-main.3450413c.js.map",
+    "static/js/2.b21e9944.chunk.js": "/new-portfolio/static/js/2.b21e9944.chunk.js",
+    "static/js/2.b21e9944.chunk.js.map": "/new-portfolio/static/js/2.b21e9944.chunk.js.map",
+    "index.html": "/new-portfolio/index.html",
+    "precache-manifest.4e61706d879c367c39b920465f9cb518.js": "/new-portfolio/precache-manifest.4e61706d879c367c39b920465f9cb518.js",
+    "service-worker.js": "/new-portfolio/service-worker.js",
+    "static/css/main.cdf9094a.chunk.css.map": "/new-portfolio/static/css/main.cdf9094a.chunk.css.map",
+    "static/media/JTROTTER_Resume_2021.pdf": "/new-portfolio/static/media/JTROTTER_Resume_2021.9101da56.pdf",
+    "static/media/headshot.jpg": "/new-portfolio/static/media/headshot.54be0108.jpg",
+    "static/media/instalogo.png": "/new-portfolio/static/media/instalogo.e3a6038a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3450413c.js",
+    "static/js/2.b21e9944.chunk.js",
+    "static/css/main.cdf9094a.chunk.css",
+    "static/js/main.4743207f.chunk.js"
+  ]
+}
