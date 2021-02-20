@@ -4,7 +4,7 @@
 }
 
 .content-wrapper {
-  background-color: #FFF7EE;
+  background-color: black;
   position: relative;
   z-index: -99;
   min-height: 100vh;

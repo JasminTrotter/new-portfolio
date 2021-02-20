@@ -123,15 +123,11 @@
     },
     {
       "label": "LinkedIn",
-      "src": "./logos/gmaillogo.png"
+      "src": "./logos/linkedinlogo.png"
     },
     {
       "label": "GitHub",
       "src": "./logos/githublogo.png"
-    },
-    {
-      "label": "Twitter",
-      "src": "./logos/twitterlogo.png"
     }
   ]
 }

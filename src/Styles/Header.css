@@ -2,15 +2,15 @@ h1 {
   margin: 0px;
   font-family: 'Homemade Apple', cursive;
   font-size: 45px;
-  color: #26395E;
+  color: #FFFDF9;
 }
 
 header {
   box-sizing: border-box;
-  z-index: 98;
+  /* z-index: 98; */
   width: 100vw;
   height: 90px;
   padding: 5px 240px;
-  background-color: #FFF7EE;
-  position: fixed;
+  background-color: black;
+  position: sticky;
 }

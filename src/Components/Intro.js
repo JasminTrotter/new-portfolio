@@ -1,6 +1,6 @@
 import React from 'react';
 import copy from '../Assets/copy.json';
-import headshot from '../Assets/headshot.JPG';
+import headshot from '../Assets/headshot.jpg';
 import '../Styles/Intro.css';
 
 function Intro() {

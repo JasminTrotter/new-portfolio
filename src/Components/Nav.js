@@ -6,54 +6,64 @@ function Nav({
   updateShowIntro,
   updateShowProjects,
   updateShowContact,
-  updateShowAbout,
+  updateShowResume,
   showIntro,
   showProjects,
   showContact,
-  showAbout
+  showResume
 }) {
+
+  function changeView(tab) {
+    switch (tab) {
+      case 'intro':
+        updateShowIntro(true)
+        updateShowContact(false)
+        updateShowProjects(false)
+        updateShowResume(false)
+        break;
+      case 'projects':
+        updateShowIntro(false)
+        updateShowContact(false)
+        updateShowProjects(true)
+        updateShowResume(false)
+        break;
+      case 'contact':
+        updateShowIntro(false)
+        updateShowContact(true)
+        updateShowProjects(false)
+        updateShowResume(false)
+        break;
+      case 'resume':
+        updateShowIntro(false)
+        updateShowContact(false)
+        updateShowProjects(false)
+        updateShowResume(true)
+        break;
+      default:
+        break;
+    }
+  }
 
   return (
     <div className={`${position}-nav Nav box-shadow`}>
-      <div className='nav-items-container'>
-        <div className={showIntro ? 'nav-item-selected' : undefined} onClick={() => {
-          updateShowIntro(true)
-          updateShowContact(false)
-          updateShowProjects(false)
-          updateShowAbout(false)
-        }}>
+      <nav className='nav-items-container'>
+        <button tabIndex='0' className={showIntro ? 'nav-item-selected' : ''} onClick={() => changeView('intro')}>
           {(position === 'desktop') && 'Intro'}
-          {(position === 'mobile') && <i className="fa fa-home"></i>}
-        </div>
-        <div className={showProjects ? 'nav-item-selected' : undefined} onClick={() => {
-          updateShowIntro(false)
-          updateShowContact(false)
-          updateShowProjects(true)
-          updateShowAbout(false)
-        }}>
+          {(position === 'mobile') && <i className='fa fa-home'></i>}
+        </button>
+        <button tabIndex='0' className={showProjects ? 'nav-item-selected' : ''} onClick={() => changeView('projects')}>
           {(position === 'desktop') && 'Projects'}
-          {(position === 'mobile') && <i className="fas fa-briefcase"></i>}
-        </div>
-        <div className={showAbout ? 'nav-item-selected' : undefined} onClick={() => {
-          updateShowIntro(false)
-          updateShowContact(false)
-          updateShowProjects(false)
-          updateShowAbout(true)
-        }}>
-          {(position === 'desktop') && 'About'}
-          {(position === 'mobile') && <i className="fas fa-address-card"></i>}
-        </div>
-        <div className={showContact ? 'nav-item-selected' : undefined} onClick={() => {
-          updateShowIntro(false)
-          updateShowContact(true)
-          updateShowProjects(false)
-          updateShowAbout(false)
-        }}>
+          {(position === 'mobile') && <i className='fas fa-briefcase'></i>}
+        </button>
+        <button tabIndex='0' className={showResume ? 'nav-item-selected' : ''} onClick={() => changeView('resume')}>
+          {(position === 'desktop') && 'Resume'}
+          {(position === 'mobile') && <i className='fas fa-address-card'></i>}
+        </button>
+        <button tabIndex='0' className={showContact ? 'nav-item-selected' : ''} onClick={() => changeView('contact')}>
           {(position === 'desktop') && 'Contact'}
-          {(position === 'mobile') && <i className="fas fa-envelope"></i>}
-
-        </div>
-      </div>
+          {(position === 'mobile') && <i className='fas fa-envelope'></i>}
+        </button>
+      </nav>
     </div>
   );
 }

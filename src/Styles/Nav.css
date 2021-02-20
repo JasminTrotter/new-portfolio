@@ -1,7 +1,7 @@
 .Nav {
   float: left;
   position: fixed;
-  background-color: #969DB6;
+  background-color: #9FAFE4;
   font-weight: bold;
   z-index: 99;
 }
@@ -28,19 +28,26 @@
   display: inline-block;
 }
 
-.nav-items-container div {
+.nav-items-container button {
   cursor: pointer;
   padding-left: 20px;
+  height: 50px;
+  font-size: 20px;
 }
 
-.mobile-nav .nav-items-container div {
+.mobile-nav .nav-items-container button {
   width: 60px;
 }
 
-.desktop-nav .nav-items-container div {
+.desktop-nav .nav-items-container button {
   width: 200px;
 }
 
 .nav-item-selected {
-  background-color: #FFF7EE;
+  background-color: black;
+  color: #FFFDF9;
+}
+
+ul {
+  list-style: none;
 }
