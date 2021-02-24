@@ -8,7 +8,7 @@ import insta from '../Assets/logos/instalogo.png'
 function Contact() {
 
   return (
-    <div className='Contact box-shadow'>
+    <div className='Contact'>
       <h2>Contact</h2>
       <section className='contact'>
         <address>

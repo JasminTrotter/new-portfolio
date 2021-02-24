@@ -9,7 +9,7 @@ function Projects() {
   return (
     <>
       {copy.projects.map((project, i) => (
-        <div className='project-item box-shadow' key={i}>
+        <div className='project-item' key={i}>
           <img className='project-img' src={project.image} alt={project.header} onClick={() => window.open(project.projectLink)} />
           <ProjectDescription description={project.description} link={project.projectLink} />
           <div className='technologies-container'>

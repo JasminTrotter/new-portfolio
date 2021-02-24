@@ -45,7 +45,7 @@ function Nav({
   }
 
   return (
-    <div className={`${position}-nav Nav box-shadow`}>
+    <div className={`${position}-nav Nav`}>
       <nav className='nav-items-container'>
         <button tabIndex='0' className={showIntro ? 'nav-item-selected' : ''} onClick={() => changeView('intro')}>
           {(position === 'desktop') && 'Intro'}

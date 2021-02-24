@@ -25,9 +25,9 @@ function App() {
   ]);
 
   function updateNav() {
-    if (window.innerWidth < 768) {
+    if (window.innerWidth < 1100) {
       updateNavPosition('mobile')
-    } else if (window.innerWidth > 768) {
+    } else if (window.innerWidth > 1100) {
       updateNavPosition('desktop')
     }
   }

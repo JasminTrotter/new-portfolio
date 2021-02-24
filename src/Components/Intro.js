@@ -5,11 +5,11 @@ import '../Styles/Intro.css';
 
 function Intro() {
   return (
-    <div className="Intro box-shadow">
-      <section className='bio-container'>
-        <div><img className='headshot' src={headshot} alt='Jasmin Trotter'></img></div>
-        <div className='bio'>{copy.bio}</div>
-      </section>
+    <div className="Intro">
+      <div className='bio' style={{ width: '100%' }}>
+        <img className='headshot' src={headshot} alt='Jasmin Trotter headshot'></img>
+        {copy.bio.split('|').map((p, i) => <p className={(i === 0) ? 'first-paragraph' : 'not-first-paragraphs'} key={Math.random()} style={{ marginBottom: '10px' }}>{p}</p>)}
+      </div>
     </div>
   );
 }

@@ -1,11 +1,13 @@
 .headshot {
-  max-height: 400px;
-  margin-right: 20px;
+  /* max-height: 400px; */
+  margin-right: 40px;
   border: 3px solid #ffffff;
+  float: left;
 }
 
-.bio-container {
+.bio {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .mobile-main .bio-container {
@@ -15,3 +17,29 @@
 .mobile-main .headshot {
   float: left;
 }
+
+.headshot {
+  width: 40%;
+}
+
+.not-first-paragraphs {
+  max-width: 95%;
+}
+
+.first-paragraph {
+  max-width: 40%;
+  /* margin-top: 45px; */
+}
+
+/* 
+@media only screen and (max-width: 1100px) {
+  .first-paragraph {
+    justify-content: center;
+    max-width: 95%;
+  }
+  .headshot {
+    width: 80%;
+    margin-right: 6%;
+    margin-left: 4%;
+  }
+} */
