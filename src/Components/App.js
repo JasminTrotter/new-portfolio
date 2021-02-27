@@ -8,7 +8,7 @@ import Projects from './Projects';
 import Resume from './Resume';
 
 function App() {
-  const [navPosition, updateNavPosition] = useState('side');
+  const [navPosition, updateNavPosition] = useState('mobile');
   const [showIntro, updateShowIntro] = useState(true);
   const [showProjects, updateShowProjects] = useState(false);
   const [showContact, updateShowContact] = useState(false);
@@ -27,7 +27,7 @@ function App() {
   function updateNav() {
     if (window.innerWidth < 1100) {
       updateNavPosition('mobile')
-    } else if (window.innerWidth > 1100) {
+    } else if (window.innerWidth >= 1100) {
       updateNavPosition('desktop')
     }
   }
